@@ -22,6 +22,17 @@ export default function Home() {
                     window.location.href = 'planify://';
                 }}>Open App
                 </button>
+                <p className="text-orange-200 text-3xl">
+                    Complete URL
+                </p>
+                <button className="text-2xl" onClick={() => {
+                    window.location.href = 'planify://tradebook';
+                }}>Trade book
+                </button>
+                <button className="text-2xl" onClick={() => {
+                    window.location.href = 'planify://';
+                }}>Open App
+                </button>
             </main>
         </div>
     );
