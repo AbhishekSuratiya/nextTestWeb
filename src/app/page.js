@@ -26,11 +26,11 @@ export default function Home() {
                     Complete URL
                 </p>
                 <button className="text-2xl" onClick={() => {
-                    window.location.href = 'planify://tradebook';
+                    window.location.href = 'https://planify.in/tradebook';
                 }}>Trade book
                 </button>
                 <button className="text-2xl" onClick={() => {
-                    window.location.href = 'planify://';
+                    window.location.href = 'https://planify.in/';
                 }}>Open App
                 </button>
             </main>
