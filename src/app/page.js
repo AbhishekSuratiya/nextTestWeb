@@ -33,6 +33,14 @@ export default function Home() {
                     window.location.href = 'https://www.planify.in/';
                 }}>Open App
                 </button>
+
+                <p className="text-orange-200 text-3xl">
+                    Testing
+                </p>
+                <button className="text-2xl" onClick={() => {
+                    window.location.href = 'https://next-test-web.vercel.app/';
+                }}>Trade book
+                </button>
             </main>
         </div>
     );
